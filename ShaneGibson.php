@@ -231,25 +231,51 @@ $experience = array(
         'start' => format_date('May, 2009'),
         'finish' => format_date('January, 2011'),
         'position' => 'Co-founder/CTO',
-        'notes' => 'Upon shutting down Defender\'s Own, my business partner and I began to leverage our collective development, Internet marketing, SEO, and sales experience to begin our own freelance consulting business specializing in website development, SEO, and Internet marketing. Fat Kids gave me the opportunity to hone my project management, client services, and technology sales craft. It taught me that I should price projects based on the value of the technology brought to the table, not just how many hours it would take me to build.'
+        'notes' => 'Upon shutting down Defender\'s Own, my business partner ' .
+                   'and I began to leverage our collective development, ' .
+                   'Internet marketing, SEO, and sales experience to begin ' .
+                   'our own freelance consulting business specializing in ' .
+                   'website development, SEO, and Internet marketing. Fat ' .
+                   'Kids gave me the opportunity to hone my project management, ' .
+                   'client services, and technology sales craft. It taught ' .
+                   'me that I should price projects based on the value of ' .
+                   'the technology brought to the table, not just how many ' .
+                   'hours it would take me to build.'
     ),
     'Mosaic Team' => array(
         'start' => format_date('January, 2011'),
         'finish' => format_date('March, 2012'),
         'position' => 'Software Engineer',
-        'notes' => 'Mosaic Team was a small digital agency located in Queen Creek, AZ. I earned this position through a chance meeting with one of the agency\'s principals at a networking event while I was peddling the services of Fat Kids Web Services. The job included updating existing client sites, project management, estimating, and working as a member of a talented team.'
+        'notes' => 'Mosaic Team was a small digital agency located in ' .
+                   'Queen Creek, AZ. I earned this position through a chance ' .
+                   'meeting with one of the agency\'s principals at a ' .
+                   'networking event while I was peddling the services of ' .
+                   'Fat Kids Web Services. The job included updating ' .
+                   'existing client sites, project management, estimating, ' .
+                   'and working as a member of a talented team.'
     ),
     'Dakar, Inc.' => array(
         'start' => format_date('June, 2012'),
         'finish' => format_date('now'),
         'position' => 'Technology Consultant',
-        'notes' => 'Technology consultation for a high net-worth individual relating to mobile asset management and inventory control across multiple locations. Entrusted with estimation, software review/selection, and being the on-call technology expert.'
+        'notes' => 'Technology consultation for a high net-worth individual ' .
+                   'relating to mobile asset management and inventory ' .
+                   'control across multiple locations. Entrusted with ' .
+                   'estimation, software review/selection, and being ' .
+                   'the on-call technology expert.'
     ),
     'Rhino (Agile|Internet) Solutions' => array(
         'start' => format_date('December, 2011'),
         'finish' => format_date('now'),
         'position' => 'Software Engineer',
-        'notes' => 'This is my most significant experience to date. Although I was originally hired for a short-term contract (4-6 weeks), the powers that be have told me to keep coming back for over two years. My duties have included lead developer, client support, project management, architecture, technology selection, client SEO, client marketing, design, estimation, interviewing, mentor, mentee, and team member.'
+        'notes' => 'This is my most significant experience to date. ' .
+                   'Although I was originally hired for a short-term ' .
+                   'contract (4-6 weeks), the powers that be have told me ' .
+                   'to keep coming back for over two years. My duties have ' .
+                   'included: lead developer, client support, project ' .
+                   'management, architecture, technology selection, client SEO, ' .
+                   'client marketing, design, estimation, interviewing, mentor, ' .
+                   'mentee, and team member.'
     )
 );
 $shane->setExperience($experience);
