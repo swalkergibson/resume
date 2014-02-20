@@ -197,13 +197,35 @@ $experience = array(
         'start' => format_date('August, 2000'),
         'finish' => format_date('now'),
         'position' => 'Co-owner',
-        'notes' => 'This is the family business. I have been involved since my mother and father purchased "The Shop" in 2000. My experience there includes sales, buying, customer service, SEO, web development, point of sale system development, marketing strategy, financial strategy, and assistant janitor.'
+        'notes' => 'This is the family business. I have been involved since ' .
+                   'my mother and father purchased "The Shop" in 2000. My ' .
+                   'experience there includes sales, buying, customer ' .
+                   'service, SEO, web development, point of sale system ' .
+                   'development, marketing strategy, financial strategy, and ' .
+                   'assistant janitor.'
     ),
     'Defender\'s Own' => array(
         'start' => format_date('December, 2007'),
         'finish' => format_date('May, 2009'),
         'position' => 'Co-founder/CTO',
-        'notes' => 'This was my first foray into technology entrepreneurship. After having gained an interest in the technology business (specifically the consumer Internet business) in my year at Babson, my best friend and I started a niche social networking website for active duty military, veterans, and their families. At its peak, we generated 5,000 active users, raised $10,000 from friends and family to build the company, and cultivated a small group (perhaps 500-1000 people) of rabid fans without spending a dime on advertising. We leveraged SEO, content, and viral strategies to build our initial user base. This is where I cemented my desire to hone my programming craft and throw myself entirely into the realm of software engineering and technology entrepreneurship. Regrettably, the business ended unceremoniously when my business partner and I determined that there was not enough revenue potential in the niche consumer Internet space and decided to shut down after entertaining a couple of acquisition offers that ultimately did not get done.'
+        'notes' => 'This was my first foray into technology entrepreneurship. ' .
+                   'After having gained an interest in the technology business ' .
+                   '(specifically the consumer Internet business) in my year at ' .
+                   'Babson, my best friend and I started a niche social ' .
+                   'networking website for active duty military, veterans, and ' .
+                   'their families. At its peak, we generated 5,000 active users, ' .
+                   'raised $10,000 from friends and family to build the company, ' .
+                   'and cultivated a small group (perhaps 500-1000 people) of ' .
+                   'rabid fans without spending a dime on advertising. We ' .
+                   'leveraged SEO, content, and viral strategies to build our ' .
+                   'initial user base. This is where I cemented my desire to ' .
+                   'hone my programming craft and throw myself entirely into ' .
+                   'the realm of software engineering and technology entrepreneurship.' .
+                   'Regrettably, the business ended unceremoniously when my business ' .
+                   'partner and I determined that there was not enough revenue ' .
+                   'potential in the niche consumer Internet space and decided ' .
+                   'to shut down after entertaining a couple of acquisition ' .
+                   'offers that ultimately did not get done.'
     ),
     'Fat Kids Web Services' => array(
         'start' => format_date('May, 2009'),
