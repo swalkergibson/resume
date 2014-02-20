@@ -160,7 +160,7 @@ $shane = new ShaneGibson();
 
 $objective = 'Experienced, entrepreneurially-minded software engineer seeks ' .
              'to provide positive energy to a seasoned, ambitious team of ' .
-             'professionals where learning is fostered, status quos are ' .
+             'professionals where learning is fostered, status quo\'s are ' .
              'routinely shattered, and work to be proud of is produced.';
 $shane->setObjective($objective);
 
