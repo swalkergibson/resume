@@ -2,7 +2,7 @@
 
 I'm Shane and this is what I do.
 
-You can reach me like so:
+You can reach me like so.
 
 By mail:  
 2607 S. Jentilly Ln.  
