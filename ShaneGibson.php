@@ -158,7 +158,10 @@ function format_date($dateString){
 
 $shane = new ShaneGibson();
 
-$objective = 'Experienced, entrepreneurially-minded software engineer seeks to provide positive energy to a seasoned, ambitious team of professionals where learning is fostered, status quos are routinely shattered, and work to be proud of is produced.';
+$objective = 'Experienced, entrepreneurially-minded software engineer seeks ' .
+             'to provide positive energy to a seasoned, ambitious team of ' .
+             'professionals where learning is fostered, status quos are ' .
+             'routinely shattered, and work to be proud of is produced.';
 $shane->setObjective($objective);
 
 $contactInfo = array(
