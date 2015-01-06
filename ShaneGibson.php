@@ -269,7 +269,7 @@ $experience = array(
     ),
     'Rhino (Agile|Internet) Solutions' => array(
         'start' => format_date('December, 2011'),
-        'finish' => format_date('now'),
+        'finish' => format_date('January, 2014'),
         'position' => 'Software Engineer',
         'notes' => 'This is my most significant experience to date. ' .
                    'Although I was originally hired for a short-term ' .
@@ -279,6 +279,16 @@ $experience = array(
                    'management, architecture, technology selection, client SEO, ' .
                    'client marketing, design, estimation, interviewing, mentor, ' .
                    'mentee, and team member.'
+    ),
+    'CaregiversDirect' => array(
+        'start' => format_date('February, 2014'),
+        'finish' => format_date('January, 2015'),
+        'position' => 'Lead Developer',
+        'notes' => 'Led the re-development of a marketplace for in-home ' .
+                   'caregivers. Wrote product specs, worked with client ' .
+                   'to determine the feature set of the product and led ' .
+                   'the development team through implementation of ' .
+                   'design and QA.'
     )
 );
 $shane->setExperience($experience);
@@ -297,7 +307,7 @@ $portfolio = array(
         'roles' => $baseRoles
     ),
     'Rennection' => array(
-        'url' => 'http://beta.rennection.rhinoagile.com',
+        'url' => 'http://www.rennection.com',
         'roles' => $baseRoles,
         'notes' => 'Not yet launched to public.'
     ),
@@ -314,6 +324,10 @@ $portfolio = array(
     ),
     'Mardi Gras Costume Shop' => array(
         'url' => 'http://www.mardigrascostumeshop.com',
+        'roles' => $baseRoles
+    ),
+    'CaregiversDirect' => array(
+        'url' => 'http://www.caregiversdirect.com',
         'roles' => $baseRoles
     )
 );
