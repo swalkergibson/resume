@@ -202,10 +202,10 @@ $experience = array(
         'position' => 'Co-owner',
         'notes' => 'This is the family business. I have been involved since ' .
                    'my mother and father purchased "The Shop" in 2000. My ' .
-                   'experience there includes sales, buying, customer ' .
+                   'experience there includes retail sales, buying, customer ' .
                    'service, SEO, web development, point of sale system ' .
-                   'development, marketing strategy, financial strategy, and ' .
-                   'assistant janitor.'
+                   'development, marketing strategy, financial strategy, ' .
+                   'assistant janitor, and business development.'
     ),
     'Defender\'s Own' => array(
         'start' => format_date('December, 2007'),
@@ -289,6 +289,42 @@ $experience = array(
                    'to determine the feature set of the product and led ' .
                    'the development team through implementation of ' .
                    'design and QA.'
+    ),
+    'The Client Angel' => array(
+        'start' => format_date('January, 2015'),
+        'finish' => format_date('now'),
+        'position' => 'Project Lead',
+        'notes' => 'Sold a rebuild of an old customer relationship management ' .
+                   'software product to a client. Led a development team of ' .
+                   'six distributed across the world from ideation to launch ' .
+                   'in July, 2016. NOTE: The registration process on the ' .
+                   'live version of this website is clunky because the ' .
+                   'client required it. My original spec used Stripe to ' .
+                   'collect credit cards, but the client insisted.'
+    ),
+    'Avanti Partners' => array(
+        'start' => format_date('August, 2016'),
+        'finish' => format_date('August, 2016'),
+        'position' => 'Technology Consultant',
+        'notes' => 'Completed technology due diligence of a company targeted ' .
+                   'for acquisition by a private equity investor. Key tasks ' .
+                   'performed included technical documentation review, SDLC ' .
+                   'review, key technology employee interviews, code ' .
+                   'review, database review, infrastructure review, security ' .
+                   'audit, weekly reporting, and an executive presentation ' .
+                   'of findings.'
+    ),
+    'Office Beacon' => array(
+        'start' => format_date('August, 2016'),
+        'finish' => format_date('now'),
+        'position' => 'VP of Software Development',
+        'notes' => 'Engaged to turn around a portfolio of 60 development ' .
+                   'projects that are over a year behind schedule. Managing ' .
+                   'over 50 development resources, and over 100 technical ' .
+                   'resources. Driving product roadmap and strategic goals ' .
+                   'of the CEO and executive management team. Resetting ' .
+                   'client and customer expectations based on project plans ' .
+                   'instead of arbitrary dates.'
     )
 );
 $shane->setExperience($experience);
@@ -299,6 +335,15 @@ $baseRoles = array(
     'Estimator',
     'System Administrator',
     'Lead Developer'
+);
+
+$managementRoles = array(
+    'System Analyst',
+    'Business Analyst',
+    'Technical Writer',
+    'Account Management',
+    'Project Management',
+    'Resource Management'
 );
 
 $portfolio = array(
@@ -329,6 +374,10 @@ $portfolio = array(
     'CaregiversDirect' => array(
         'url' => 'http://www.caregiversdirect.com',
         'roles' => $baseRoles
+    ),
+    'The Client Angel' => array(
+        'url' => 'https://app.theclientangel.com',
+        'roles' => $managementRoles
     )
 );
 $shane->setPortfolio($portfolio);
