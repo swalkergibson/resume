@@ -160,7 +160,7 @@ $shane = new ShaneGibson();
 
 $objective = 'Experienced, entrepreneurially-minded software engineer seeks ' .
              'to provide positive energy to a seasoned, ambitious team of ' .
-             'professionals where learning is fostered, status quo\'s are ' .
+             'professionals where learning is fostered, conventions are ' .
              'routinely shattered, and work to be proud of is produced.';
 $shane->setObjective($objective);
 
@@ -316,8 +316,8 @@ $experience = array(
     ),
     'Office Beacon' => array(
         'start' => format_date('August, 2016'),
-        'finish' => format_date('now'),
-        'position' => 'VP of Software Development',
+        'finish' => format_date('November, 2016'),
+        'position' => 'Director of Engineering and Implementation',
         'notes' => 'Engaged to turn around a portfolio of 60 development ' .
                    'projects that are over a year behind schedule. Managing ' .
                    'over 50 development resources, and over 100 technical ' .
