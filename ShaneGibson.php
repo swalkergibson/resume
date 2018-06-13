@@ -168,10 +168,10 @@ $contactInfo = array(
     'phone' => '(480) 221-7664',
     'email' => 'swalkergibson@gmail.com',
     'address' => array(
-        'street' => '2607 S. Jentilly Ln.',
-        'city' => 'Tempe',
+        'street' => '4808 N. 24th Street, Unit 622',
+        'city' => 'Phoenix',
         'state' => 'AZ',
-        'zip' => 85282
+        'zip' => 85016
     ),
     'social' => array(
         'facebook' => 'http://www.facebook.com/swalkergibson',
@@ -317,7 +317,7 @@ $experience = array(
     'Office Beacon' => array(
         'start' => format_date('August, 2016'),
         'finish' => format_date('November, 2016'),
-        'position' => 'Director of Engineering and Implementation',
+        'position' => 'VP of Software Development',
         'notes' => 'Engaged to turn around a portfolio of 60 development ' .
                    'projects that are over a year behind schedule. Managing ' .
                    'over 50 development resources, and over 100 technical ' .
@@ -325,6 +325,17 @@ $experience = array(
                    'of the CEO and executive management team. Resetting ' .
                    'client and customer expectations based on project plans ' .
                    'instead of arbitrary dates.'
+    ),
+    'Moses, Inc.' => array(
+        'start' => format_date('February, 2017'),
+        'finish' => format_date('now'),
+        'position' => 'Senior Developer',
+        'notes' => 'Develop websites and web applications at client\'s ' .
+                   'direction. Delivered major project for Arizona ' .
+                   'Department of Revenue using the Drupal CMS on time ' . 
+                   'and on budget. Created requirements documents, developed ' .
+                   'technical and functional specifications, as well as ' .
+                   'estimates for upcoming projects.'
     )
 );
 $shane->setExperience($experience);
@@ -347,6 +358,10 @@ $managementRoles = array(
 );
 
 $portfolio = array(
+    'Arizona Department of Revenue' => array(
+        'url' => 'https://azdor.gov',
+        'roles' => array($managementRoles, $baseRoles)
+    ),
     'Meritage Homes' => array(
         'url' => 'http://www.meritagehomes.com',
         'roles' => $baseRoles
