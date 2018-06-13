@@ -15,4 +15,4 @@ swalkergibson@gmail.com
 By phone:  
 (480) 221-7664
 
-The ShaneGibson.php resume is suitable for nerds, the CorporateResume.pdf is suitable for HR people, and the vcard.png is a QR code with my contact information embedded. I look forward to hearing from you!
+The ShaneGibson.php resume is suitable for the technically adept, the CorporateResume.pdf is suitable for HR people, and the vcard.png is a QR code with my contact information embedded. I look forward to hearing from you!
