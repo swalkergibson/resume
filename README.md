@@ -5,8 +5,9 @@ I'm Shane and this is what I do.
 You can reach me like so.
 
 By mail:  
-2607 S. Jentilly Ln.  
-Tempe, AZ 85282
+4808 N. 24th Street
+Unit 622
+Phoenix, AZ 85016
 
 By email:  
 swalkergibson@gmail.com
